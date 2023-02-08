@@ -1,3 +1,14 @@
+#About the repository
+  Developed on Angular 15 with typescript standards.
+  Used Angular Material components like sort, pagination, icons, button.
+  Used google fonts for styling.
+  
+#To use in local
+  Download the repository
+  In root folder run a command 'npm install'
+  Inside folder run the command 'ng serve'
+  Open localhost:4200 in your browser to view the UI
+
 # UserRecords
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
