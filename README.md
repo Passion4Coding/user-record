@@ -1,9 +1,9 @@
-#About the repository
+# About the repository: 
   Developed on Angular 15 with typescript standards.
   Used Angular Material components like sort, pagination, icons, button.
   Used google fonts for styling.
   
-#To use in local
+# To use in local: 
   Download the repository
   In root folder run a command 'npm install'
   Inside folder run the command 'ng serve'
