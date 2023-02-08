@@ -1,0 +1,66 @@
+<div class="record-detail-container">
+  <div class="heading-action-row">
+    <h2>Record Details</h2>
+    <span>
+      <mat-icon (click)="close()">close</mat-icon>
+    </span>
+  </div>
+
+  <div class="detailed-information">
+    <div class="infoRow">
+      <span class="key">carrier :</span>
+      <span class="value">{{ data.carrier }}</span>
+    </div>
+
+    
+    <div class="infoRow">
+        <span class="key">date Activated :</span>
+        <span class="value">{{ data.dateActivated | date : "dd/MM/YYYY" }}</span>
+      </div>
+
+      <div class="infoRow">
+        <span class="key">date Modified :</span>
+        <span class="value">{{ data.dateModified | date : "dd/MM/YYYY" }}</span>
+      </div>
+
+    <div class="infoRow">
+      <span class="key">Data Usage :</span>
+      <span class="value">{{ data.hasDataUsage == true ? "Yes" : "No" }}</span>
+    </div>
+    <div class="infoRow">
+      <span class="key">Sms Usage :</span>
+      <span class="value">{{ data.hasSmsUsage == true ? "Yes" : "No" }}</span>
+    </div>
+    <div class="infoRow">
+      <span class="key">Voice Usage :</span>
+      <span class="value">{{ data.hasVoiceUsage == true ? "Yes" : "No" }}</span>
+    </div>
+    <div class="infoRow">
+      <span class="key">iccid :</span>
+      <span class="value">{{ data.iccid }}</span>
+    </div>
+    <div class="infoRow">
+      <span class="key">identity :</span>
+      <span class="value">{{ data.identity }}</span>
+    </div>
+    <div class="infoRow">
+      <span class="key">imei :</span> <span class="value">{{ data.imei }}</span>
+    </div>
+    <div class="infoRow">
+      <span class="key">locAddress :</span>
+      <span class="value"> {{ address }} </span>
+    </div>
+    <div class="infoRow">
+      <span class="key">state :</span>
+      <span class="value"> {{ data.locAddress.state }} </span>
+    </div>
+    <div class="infoRow">
+      <span class="key">country :</span>
+      <span class="value"> {{ data.locAddress.country }} </span>
+    </div>
+    <div class="infoRow">
+      <span class="key">zipCode :</span>
+      <span class="value"> {{ data.locAddress.zipCode }} </span>
+    </div>
+  </div>
+</div>

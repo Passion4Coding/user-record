@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+.record-list-container {
+  background-color: whitesmoke;
+  min-height: calc(100vh - 2rem);
+  padding: 0.85rem 2rem;
+  margin: auto;
+
+  .inforamtion {
+    display: flex;
+    align-items: center;
+    .heading {
+      font-size: 1.35rem;
+      font-family: "Lato", sans-serif;
+      font-weight: 700;
+      margin-bottom: 0;
+      line-height: 4rem;
+    }
+    .i-icon {
+      cursor: pointer;
+      position: relative;
+      margin-left: 0.5rem;
+      border-radius: 100%;
+      display: flex;
+      align-items: center;
+      color: blue;
+
+      .showHide {
+        display: none;
+        position: absolute;
+        left: 2rem;
+        width: 244px;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+        font-size: 1.05rem;
+        color: black !important;
+        padding: 0.5rem 1rem;
+        background-color: white;
+        border-radius: 0.5rem;
+      }
+    }
+  }
+  .i-icon:hover {
+    .showHide {
+      display: flex;
+    }
+  }
+
+  .table-container {
+    border: 2px solid rgba(0, 0, 0, 0.12) !important;
+    border-radius: 6px !important;
+    padding: 1px;
+
+    .mat-mdc-table {
+      .mat-icon {
+        cursor: pointer;
+      }
+
+      .mat-mdc-header-cell {
+        font-family: "Lato", sans-serif !important;
+        font-weight: 700 !important;
+        text-transform: capitalize !important;
+        font-size: 1rem;
+      }
+
+      .mat-mdc-cell {
+        font-family: "Lato", sans-serif !important;
+        font-weight: 400 !important;
+        color: gray;
+        font-size: 1rem;
+      }
+    }
+
+    .mat-mdc-paginator {
+      border-top: 1px solid rgba(0, 0, 0, 0.12) !important;
+      padding-top: 0.5rem;
+    }
+  }
+}
