@@ -4,10 +4,10 @@
   Used google fonts for styling.
   
 # To use in local: 
-  Download the repository
-  In root folder run a command 'npm install'
-  Inside folder run the command 'ng serve'
-  Open localhost:4200 in your browser to view the UI
+  `Download the repository`
+  `In root folder run a command 'npm install'`
+  `Inside folder run the command 'ng serve'`
+  `Open localhost:4200 in your browser to view the UI`
 
 # UserRecords
 
